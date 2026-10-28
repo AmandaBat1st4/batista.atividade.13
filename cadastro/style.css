@@ -1,0 +1,107 @@
+header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #c26a47;
+}
+
+body {
+      color: #c26a47;
+      background-color: #fcfce7;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+}
+
+nav {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      justify-content: flex-end;
+}
+
+main {
+      display: flex;
+      align-items: center;
+         justify-content: center;
+      gap: 8px;
+}
+
+a {
+      color: #c26a47;
+      text-decoration: overline;
+}
+
+
+footer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+}
+
+input {
+      background-color: #fcfce7;
+      border: 2px solid #80644b;
+      border-radius: 6px;
+      padding: 8px;
+      width: 300px;
+}
+
+button {
+      background-color: #c26a47;
+      color: #fcfce7;
+      border: 2px solid #8c5827;
+      border-radius: 6px;
+      padding: 10px;
+
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 600;
+
+      width: 100%;
+      box-sizing: border-box;
+      cursor: pointer;
+
+      margin-top: 15px;
+}
+
+form {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 8px;
+     
+
+      border: 2px solid #dfc69f;
+      padding: 20px;
+      background-color: #f1dfc2;
+      border-radius: 10px;
+      max-width: 400px;
+}
+
+.novidades {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      width: 600px;
+}
+.quero {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      width: 618px;
+}
+
+.direitos {
+      text-align: center;
+}
+.lado {
+      display: flex;
+      gap: 30px;
+      align-items: flex-start;
+}
+section {
+      display: flex;
+      gap: 30px;
+
+}

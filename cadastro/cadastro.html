@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Cadastro</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <nav>
+            <a href="../home/index.html">
+                  Home
+            </a>
+            </a>
+            <a href="../login/index.html">
+                  Login
+            </a>
+      </nav>
+
+      <header>
+            <h1>Móveis & Estilo</h1>
+      </header>
+      <div class="lado">
+            <aside>
+                  <!-- colocar img na lateral esquerda toda para o login ficar na direita -->
+                  <img src="../img/cadastro.png" alt="Faça parte da nossa casa" height="1326">
+            </aside>
+            <main>
+                  <form onsubmit="alert('Enviado com sucesso!'); return false;">
+                        <h2>Cadastro</h2>
+
+                        <h3>Dados Pessoais:</h3>
+                        <label>Nome</label>
+                        <input type="text" required placeholder="Digite aqui o nome completo" maxlength="100"
+                              minlength="10">
+                        <label>E-mail</label>
+                        <input type="email" required placeholder="Digite aqui seu e-mail" maxlength="100">
+                        <label>Senha:</label>
+                        <input type="password" required placeholder="Senha" maxlength="100">
+
+                        <label>Confirmar Senha:</label>
+                        <input type="password" required placeholder="Senha" maxlength="100">
+                        <label>RG</label>
+                        <input type="text" required placeholder="Digite aqui o RG" maxlength="10" minlength="8">
+                        <label>CPF</label>
+                        <input type="text" required placeholder="Digite aqui o CPF" maxlength="11" minlength="11">
+                        <label>Data de Nascimento:</label>
+                        <input type="date" required>
+                        <label>Cor Preferida:</label>
+                        <input type="color">
+                        <h3>Endereço:</h3>
+
+                        <label>Logradouro:</label>
+                        <input type="text" required placeholder="Logradouro" maxlength="100">
+                        <label>Número:</label>
+                        <input type="text" required placeholder="Número" maxlength="4" minlength="1">
+                        <label>Bairro:</label>
+                        <input type="text" required placeholder="Bairro" maxlength="100">
+                        <label>Cidade:</label>
+                        <input type="text" required placeholder="Cidade" maxlength="100">
+                        <label>Estado:</label>
+                        <input type="text" required placeholder="Estado" maxlength="2">
+                        <label>CEP:</label>
+                        <input type="text" required placeholder="CEP" maxlength="8" minlength="8">
+
+                        <button type="submit">Cadastrar</button>
+                  </form>
+            </main>
+            <aside>
+                  <!-- colocar img na lateral esquerda toda para o login ficar na direita -->
+                  <img src="../img/cadastro..png" alt="Faça parte da nossa casa" height="1320" width="500px">
+            </aside>
+      </div>
+      <footer>
+            <div class="novidades">
+                  <h3>NOVIDADES EXCLUSIVAS</h3>
+                  <p>
+                        Receba novidades, lançamentos e ofertas
+                        especiais diretamente no seu e-mail.
+                  </p>
+            </div>
+            <input type="email" placeholder="Seu melhor e-mail">
+            <button type="submit" class="quero">Quero receber</button>
+
+
+            <p class="direitos">
+                  © 2026 Móveis & Estilo. Todos os direitos reservados.
+            </p>
+      </footer>
+</body>
+
+</html>
